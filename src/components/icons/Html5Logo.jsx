@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Html5Logo = () => {
   return (
-    <svg className="logo-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <svg className="stack-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
       <g id="b6ca5021-750d-4d33-8f0f-1391a50c4cd3" data-name="Layer 2">
         <g id="aa03ac01-cf48-4b43-9702-5deb613b5016" data-name="HTML 5">
           <circle

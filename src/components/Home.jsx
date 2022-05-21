@@ -1,8 +1,8 @@
-import { Html5Logo } from './Html5Logo';
-import { GitLogo } from './GitLogo';
-import { Css3Logo } from './Css3Logo';
-import { NodeLogo } from './NodeLogo';
-import { ReactLogo } from './ReactLogo';
+import { Html5Logo } from './icons/Html5Logo';
+import { GitLogo } from './icons/GitLogo';
+import { Css3Logo } from './icons/Css3Logo';
+import { NodeLogo } from './icons/NodeLogo';
+import { ReactLogo } from './icons/ReactLogo';
 
 export const Home = () => {
   return (

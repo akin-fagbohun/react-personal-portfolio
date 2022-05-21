@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom';
+import { GithubLogo } from '../components/icons/GithubLogo';
 
 export const Footer = () => {
   return (
@@ -6,8 +7,11 @@ export const Footer = () => {
       <div className="footer-group">
         <ul className="footer-links">
           <li>
-            GitHub - get icon
-            {/* <Link to="/">Home</Link> */}
+            <div>
+              GitHub - get icon
+              {/* <Link to="/">Home</Link> */}
+              <GithubLogo />
+            </div>
           </li>
           <li>
             LinkedIn - get icon

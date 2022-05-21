@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Css3Logo = () => {
   return (
-    <svg className="logo-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.7 99.7">
+    <svg className="stack-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 99.7 99.7">
       <g id="e8ea0d55-1223-4ce3-a865-c1862b8058b0" data-name="Layer 2">
         <g id="eaf7fe78-0fde-4111-a24e-a5be62b90cd6" data-name="CSS3">
           <circle
