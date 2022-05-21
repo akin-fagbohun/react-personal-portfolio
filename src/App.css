@@ -249,3 +249,8 @@ select {
   border-radius: 50%;
   margin: 0.5rem;
 }
+
+.sprite-outline {
+  width: 30px;
+  height: 30px;
+}

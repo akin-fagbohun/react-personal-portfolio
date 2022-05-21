@@ -3,6 +3,7 @@ import React from 'react';
 export const ReactLogo = () => {
   return (
     <svg className="stack-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <title>Logo React</title>
       <g id="a3a313fa-0b9e-444c-958b-f8cf5a195540" data-name="Layer 2">
         <g id="aa50f5bb-9d94-47a2-b7d3-a4fb448da446" data-name="React">
           <circle cx="50" cy="50" r="50" fill="#ebebeb" />

@@ -3,6 +3,7 @@ import React from 'react';
 export const NodeLogo = () => {
   return (
     <svg className="stack-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <title>Logo Node JS</title>
       <defs>
         <clipPath id="a64880b1-e2fb-4334-a29e-6abbc68d2e16">
           <path

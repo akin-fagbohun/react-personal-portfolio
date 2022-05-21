@@ -3,6 +3,7 @@ import React from 'react';
 export const GitLogo = () => {
   return (
     <svg className="stack-icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <title>Logo Git</title>
       <g id="ed14bfe0-deb7-41e5-80b1-4f7bed74feff" data-name="Layer 2">
         <g id="acaaffcd-b8a7-4a48-916a-4b4f963771d9" data-name="Layer 1">
           <circle cx="50" cy="50" r="50" fill="#ebebeb" />
