@@ -1,3 +1,9 @@
+import { Html5Logo } from './Html5Logo';
+import { GitLogo } from './GitLogo';
+import { Css3Logo } from './Css3Logo';
+import { NodeLogo } from './NodeLogo';
+import { ReactLogo } from './ReactLogo';
+
 export const Home = () => {
   return (
     <main>
@@ -24,7 +30,24 @@ export const Home = () => {
               <div className="card-cta"></div>
             </div>
           </li>
+          <li className="project-card">
+            <div className="card-content">
+              <h3>OddJobs Mobile App</h3>
+              <p>A mobile app, built with React Native.</p>
+              <div className="card-cta"></div>
+            </div>
+          </li>
         </ul>
+      </section>
+      <section className="stack-wrapper">
+        <h3 className="section-heading">Tech Stack</h3>
+        <div className="logo-list">
+          <Html5Logo />
+          <Css3Logo />
+          <NodeLogo />
+          <ReactLogo />
+          <GitLogo />
+        </div>
       </section>
     </main>
   );

@@ -120,7 +120,7 @@ select {
 
 .footer-group {
   display: flex;
-  background-color: var(--off-white); /* remove later or make on hover */
+  background-color: var(--pale-yellow); /* remove later or make on hover */
   width: 100%;
   height: 200px;
   justify-content: flex-start;
@@ -133,7 +133,7 @@ select {
   align-items: center;
   width: 60%;
   letter-spacing: 0.5px;
-  background-color: var(--off-white); /* remove later or make on hover */
+  background-color: var(--pale-yellow); /* remove later or make on hover */
   list-style-type: none;
   padding: 0;
 }
@@ -166,6 +166,8 @@ select {
   font-size: 1.25rem;
 }
 
+/*   Project Cards   */
+
 .project-wrapper {
   background-color: var(--pale-yellow);
 }
@@ -175,7 +177,7 @@ select {
   overflow-x: auto;
   margin-top: 0;
   margin-bottom: 0;
-  justify-content: center; /*remove when adding more projects */
+  margin-left: 30px;
 }
 
 .project-card {
@@ -221,4 +223,25 @@ select {
   margin-left: auto;
   border-bottom-right-radius: 18px;
   border-top-left-radius: 18px;
+}
+
+/*  Techstack Section  */
+
+.stack-wrapper {
+  background-color: var(--off-white);
+}
+
+.logo-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.logo-icons {
+  background-color: var(--dark-grey);
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  margin: 0.5rem;
 }
