@@ -3,14 +3,15 @@ import { GitLogo } from './icons/GitLogo';
 import { Css3Logo } from './icons/Css3Logo';
 import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
+import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
 
 export const Home = () => {
   return (
     <main>
       <section className="headline-wrapper">
         <div className="headline-content">
-          <h1>Hello, I&apos;m Akin. A Leeds based Front-end/Full-Stack developer.</h1>
-          <p>Welcome to my personal portfolio... Please take a look around.</p>
+          <h1>Hello, I&apos;m Akin. </h1>
+          <p>A Leeds based Full-Stack developer.</p>
         </div>
       </section>
       <section className="project-wrapper">
@@ -20,21 +21,27 @@ export const Home = () => {
             <div className="card-content">
               <h3>Everything News</h3>
               <p>A static article site, built with React</p>
-              <div className="card-cta"></div>
+              <div className="card-cta">
+                <ArrowForwardCircle />
+              </div>
             </div>
           </li>
           <li className="project-card">
             <div className="card-content">
               <h3>REST API</h3>
               <p>A REST API, built with Node, Express and PostgreSQL.</p>
-              <div className="card-cta"></div>
+              <div className="card-cta">
+                <ArrowForwardCircle />
+              </div>
             </div>
           </li>
           <li className="project-card">
             <div className="card-content">
               <h3>OddJobs Mobile App</h3>
               <p>A mobile app, built with React Native.</p>
-              <div className="card-cta"></div>
+              <div className="card-cta">
+                <ArrowForwardCircle />
+              </div>
             </div>
           </li>
         </ul>
