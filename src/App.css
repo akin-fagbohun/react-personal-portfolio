@@ -220,6 +220,7 @@ select {
 }
 
 .card-cta {
+  display: flex;
   background-color: var(--mustard);
   height: 50px;
   width: 50px;
@@ -227,6 +228,8 @@ select {
   margin-left: auto;
   border-bottom-right-radius: 18px;
   border-top-left-radius: 18px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*  Techstack Section  */
@@ -251,6 +254,11 @@ select {
 }
 
 .sprite-outline {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+.sprite-fill {
+  width: 35px;
+  height: 35px;
 }
