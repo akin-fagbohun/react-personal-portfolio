@@ -25,11 +25,13 @@ h2,
 h3,
 h4,
 p,
+ul,
 figure,
 blockquote,
 dl,
 dd {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -160,7 +162,7 @@ select {
 .section-heading {
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   font-size: 1.25rem;
 }
 
@@ -173,9 +175,11 @@ select {
   overflow-x: auto;
   margin-top: 0;
   margin-bottom: 0;
+  justify-content: center; /*remove when adding more projects */
 }
 
 .project-card {
+  display: flex;
   background-color: var(--mid-grey);
   width: 300px;
   height: 400px;
@@ -185,4 +189,36 @@ select {
   margin-bottom: 3rem;
   flex: 0 0 auto;
   list-style: none;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 175px;
+  background-color: crimson;
+  align-self: flex-end;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.card-content > h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-content > p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-cta {
+  background-color: var(--mustard);
+  height: 50px;
+  width: 50px;
+  margin-top: auto;
+  margin-left: auto;
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 18px;
 }
