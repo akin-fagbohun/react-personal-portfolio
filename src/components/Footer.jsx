@@ -1,4 +1,6 @@
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { GithubLogo } from '../components/icons/GithubLogo';
+import { LinkedInLogo } from './icons/LinkedInLogo';
 
 export const Footer = () => {
   return (
@@ -6,16 +8,14 @@ export const Footer = () => {
       <div className="footer-group">
         <ul className="footer-links">
           <li>
-            GitHub - get icon
-            {/* <Link to="/">Home</Link> */}
+            <div>
+              <Link to="https://github.com/akin-fagbohun">Github</Link>
+              <GithubLogo />
+            </div>
           </li>
           <li>
-            LinkedIn - get icon
-            {/* <Link to="/projects">Projects</Link> */}
-          </li>
-          <li>
-            Contact - onclick - show email?
-            {/* <Link to="/contact">Contact</Link> */}
+            <Link to="https://www.linkedin.com/in/akinfagbohun/">LinkedIn</Link>
+            <LinkedInLogo />
           </li>
         </ul>
       </div>
