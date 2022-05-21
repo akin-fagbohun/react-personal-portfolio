@@ -4,21 +4,18 @@ import { LinkedInLogo } from './icons/LinkedInLogo';
 
 export const Footer = () => {
   return (
-    <nav>
+    <footer>
       <div className="footer-group">
-        <ul className="footer-links">
-          <li>
-            <div>
-              <Link to="https://github.com/akin-fagbohun">Github</Link>
-              <GithubLogo />
-            </div>
-          </li>
-          <li>
-            <Link to="https://www.linkedin.com/in/akinfagbohun/">LinkedIn</Link>
-            <LinkedInLogo />
-          </li>
-        </ul>
+        <div className="footer-links">
+          <GithubLogo />
+          <Link to="https://github.com/akin-fagbohun">GitHub</Link>
+        </div>
+        <div className="footer-links">
+          <LinkedInLogo />
+          <Link to="https://www.linkedin.com/in/akinfagbohun/">LinkedIn</Link>
+        </div>
+        <small className="copyright">© Akin Fagbohun. All rights reserved.</small>
       </div>
-    </nav>
+    </footer>
   );
 };

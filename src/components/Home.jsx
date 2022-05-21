@@ -44,6 +44,15 @@ export const Home = () => {
               </div>
             </div>
           </li>
+          <li className="project-card">
+            <div className="card-content">
+              <h3>Pairs Game</h3>
+              <p>Play some pairs and test your recall.</p>
+              <div className="card-cta">
+                <ArrowForwardCircle />
+              </div>
+            </div>
+          </li>
         </ul>
       </section>
       <section className="stack-wrapper">

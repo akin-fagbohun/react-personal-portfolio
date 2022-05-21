@@ -4,7 +4,7 @@ export const ArrowForwardCircle = () => {
   const [hover, setHover] = useState(false);
 
   const toggleHover = () => {
-    hover === hover ? setHover(!hover) : setHover(hover);
+    if (hover === hover) setHover(!hover);
   };
 
   if (!hover) {
