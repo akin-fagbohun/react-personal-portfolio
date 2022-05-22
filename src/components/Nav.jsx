@@ -1,21 +1,36 @@
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const Nav = () => {
+  let activeClassName = 'nav-focus';
+
   return (
     <nav>
       <div className="nav-group">
         <ul className="nav-links">
           <li>
-            Home
-            {/* <Link to="/">Home</Link> */}
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? activeClassName : undefined)}
+              end
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            Projects
-            {/* <Link to="/projects">Projects</Link> */}
+            <NavLink
+              to="/projects"
+              className={({ isActive }) => (isActive ? activeClassName : undefined)}
+            >
+              Projects
+            </NavLink>
           </li>
           <li>
-            Contact
-            {/* <Link to="/contact">Contact</Link> */}
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? activeClassName : undefined)}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </div>

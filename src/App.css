@@ -114,6 +114,12 @@ select {
   margin: 10px;
 }
 
+.nav-focus {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* consider mobile breakpoints for navigation */
 
 /*  Footer  */
@@ -137,6 +143,7 @@ select {
   width: 100px;
   padding-top: 30px;
   align-items: center;
+  align-self: flex-end;
 }
 
 .footer-icons {
@@ -151,9 +158,11 @@ select {
 }
 
 .copyright {
-  align-items: center;
-  justify-self: center;
+  display: block;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* consider mobile breakpoints for Footer */
@@ -178,6 +187,28 @@ select {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 1.25rem;
+}
+
+.section-cta {
+  display: block;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  font-weight: 600;
+}
+
+.section-cta-focus {
+  display: block;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  background-color: crimson;
+  color: white;
+  font-weight: 600;
 }
 
 /*   Project Cards   */
@@ -246,6 +277,7 @@ select {
 
 .stack-wrapper {
   background-color: var(--off-white);
+  padding-bottom: 50px;
 }
 
 .logo-list {

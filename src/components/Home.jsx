@@ -1,11 +1,14 @@
+// import { useNavigate } from 'react-router-dom';
 import { Html5Logo } from './icons/Html5Logo';
 import { GitLogo } from './icons/GitLogo';
 import { Css3Logo } from './icons/Css3Logo';
 import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
+import { LearnMoreButton } from './icons/reusables/LearnMoreButton';
 
 export const Home = () => {
+  // const navigate = useNavigate();
   return (
     <main>
       <section className="headline-wrapper">
@@ -64,6 +67,7 @@ export const Home = () => {
           <ReactLogo />
           <GitLogo />
         </div>
+        <LearnMoreButton destination={'../tech-stack'} />
       </section>
     </main>
   );
