@@ -11,8 +11,8 @@ export const ArrowForwardCircle = () => {
     return (
       <svg
         onMouseEnter={() => toggleHover()}
-        xmlns="http://www.w3.org/2000/svg"
         className="sprite-outline"
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
       >
         <title>Arrow Forward Circle</title>
@@ -39,8 +39,8 @@ export const ArrowForwardCircle = () => {
     return (
       <svg
         onMouseLeave={() => toggleHover()}
-        xmlns="http://www.w3.org/2000/svg"
         className="sprite-fill"
+        xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
       >
         <title>Arrow Forward Circle</title>
