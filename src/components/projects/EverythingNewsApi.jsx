@@ -1,9 +1,9 @@
-import { CtaButtonExternal } from './icons/reusables/CtaButtonExternal';
+import { CtaButtonExternal } from '../icons/reusables/CtaButtonExternal';
 
-export const EverythingNews = () => {
+export const EverythingNewsApi = () => {
   return (
     <main>
-      <h1>everything News</h1>
+      <h1>everything New REST API</h1>
       <p>write a summary of this project</p>
       <h3>Screenshots</h3>
       <CtaButtonExternal destination={'https://everything-news.netlify.app/'} buttonText={'Demo'} />

@@ -1,4 +1,3 @@
-// import { useNavigate } from 'react-router-dom';
 import { Html5Logo } from './icons/Html5Logo';
 import { GitLogo } from './icons/GitLogo';
 import { Css3Logo } from './icons/Css3Logo';
@@ -6,9 +5,9 @@ import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
 import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
+import EverythingNewsCard from '../img/projects/EverythingNewsCard.jpg';
 
 export const Home = () => {
-  // const navigate = useNavigate();
   return (
     <main>
       <section className="headline-wrapper">
@@ -17,28 +16,40 @@ export const Home = () => {
           <p>A Leeds based Full-Stack developer.</p>
         </div>
       </section>
-      <section className="project-wrapper">
+      <section className="project-card-wrapper">
         <h3 className="section-heading">Projects</h3>
         <ul className="project-carousel">
           <li className="project-card">
+            <img className="card-image" src={EverythingNewsCard} alt="" />
             <div className="card-content">
-              <h3>Everything News</h3>
+              <h3>
+                <a href="/everything-news">Everything News</a>
+              </h3>
               <p>A static article site, built with React</p>
               <div className="card-cta">
-                <ArrowForwardCircle />
+                <a href="/everything-news">
+                  <ArrowForwardCircle />
+                </a>
               </div>
             </div>
           </li>
           <li className="project-card">
+            <img className="card-image" src="" alt="" />
             <div className="card-content">
-              <h3>REST API</h3>
+              <h3>
+                <a href="/everything-news-rest-api">Everything News REST API</a>
+              </h3>
               <p>A REST API, built with Node, Express and PostgreSQL.</p>
               <div className="card-cta">
-                <ArrowForwardCircle />
+                <a href="/everything-news-rest-api">
+                  <ArrowForwardCircle />
+                </a>
               </div>
             </div>
           </li>
           <li className="project-card">
+            <img className="card-image" src="" alt="" />
+
             <div className="card-content">
               <h3>OddJobs Mobile App</h3>
               <p>A mobile app, built with React Native.</p>
@@ -48,6 +59,8 @@ export const Home = () => {
             </div>
           </li>
           <li className="project-card">
+            <img className="card-image" src="" alt="" />
+
             <div className="card-content">
               <h3>Pairs Game</h3>
               <p>Play some pairs and test your recall.</p>
