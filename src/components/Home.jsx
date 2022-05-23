@@ -5,9 +5,13 @@ import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
 import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
-import EverythingNewsCard from '../img/projects/EverythingNewsCard.jpg';
+import EverythingNewsCard from '../img/projects/everything-news-frontend/EverythingNewsCard.jpg';
 
 export const Home = () => {
+  // const ele = document.getElementById('project-carousel');
+  // ele.scrollTop = 100;
+  // ele.scrollLeft = 150;
+
   return (
     <main>
       <section className="headline-wrapper">
@@ -18,7 +22,7 @@ export const Home = () => {
       </section>
       <section className="project-card-wrapper">
         <h3 className="section-heading">Projects</h3>
-        <ul className="project-carousel">
+        <ul id="project-carousel" className="project-carousel">
           <li className="project-card">
             <img className="card-image" src={EverythingNewsCard} alt="" />
             <div className="card-content">

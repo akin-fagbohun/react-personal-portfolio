@@ -1,4 +1,8 @@
 import { CtaButtonExternal } from '../icons/reusables/CtaButtonExternal';
+import EverythingNews_1 from '../../img/projects/everything-news-frontend/EverythingNews_1.jpg';
+import EverythingNews_2 from '../../img/projects/everything-news-frontend/EverythingNews_2.jpg';
+import EverythingNews_3 from '../../img/projects/everything-news-frontend/EverythingNews_3.jpg';
+import EverythingNews_4 from '../../img/projects/everything-news-frontend/EverythingNews_4.jpg';
 
 export const EverythingNews = () => {
   return (
@@ -21,8 +25,26 @@ export const EverythingNews = () => {
 
       <CtaButtonExternal destination={'https://everything-news.netlify.app/'} buttonText={'Demo'} />
       <h3 className="project-subtitle">Screenshots</h3>
-      <h3>Project Retro</h3>
-      <p>Write a retro for this project</p>
+      <div className="screenshots-wrapper">
+        <div className="screenshot">
+          <img src={EverythingNews_1} alt="" />
+          <small>Article Site Homepage</small>
+        </div>
+        <div className="screenshot">
+          <img src={EverythingNews_2} alt="" />
+          <small>Filter functionality</small>
+        </div>
+        <div className="screenshot">
+          <img src={EverythingNews_3} alt="" />
+          <small>Ability to &quot;like&quot; articles post and/or delete comments.</small>
+        </div>
+        <div className="screenshot">
+          <img src={EverythingNews_4} alt="" />
+          <small>Utilising query params to filter content.</small>
+        </div>
+      </div>
+      {/* <h3>Project Retro</h3>
+      <p>Write a retro for this project</p> */}
     </main>
   );
 };
