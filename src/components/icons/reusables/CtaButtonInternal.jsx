@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export const LearnMoreButton = ({ destination }) => {
+export const CtaButtonInternal = ({ destination, buttonText }) => {
   const [hover, setHover] = useState(false);
 
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ export const LearnMoreButton = ({ destination }) => {
         onMouseEnter={() => toggleHover()}
         className="section-cta"
       >
-        Learn more
+        {buttonText}
       </button>
     );
   }
@@ -29,7 +29,7 @@ export const LearnMoreButton = ({ destination }) => {
         onMouseLeave={() => toggleHover()}
         className="section-cta-focus"
       >
-        Learn more
+        {buttonText}
       </button>
     );
   }
