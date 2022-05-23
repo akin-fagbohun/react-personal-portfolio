@@ -18,10 +18,10 @@ export const Nav = () => {
           </li>
           <li>
             <NavLink
-              to="/projects"
+              to="/about-me"
               className={({ isActive }) => (isActive ? activeClassName : undefined)}
             >
-              Projects
+              About
             </NavLink>
           </li>
           <li>

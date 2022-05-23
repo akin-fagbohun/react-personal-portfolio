@@ -5,7 +5,7 @@ import { Css3Logo } from './icons/Css3Logo';
 import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
-import { LearnMoreButton } from './icons/reusables/LearnMoreButton';
+import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
 
 export const Home = () => {
   // const navigate = useNavigate();
@@ -67,7 +67,7 @@ export const Home = () => {
           <ReactLogo />
           <GitLogo />
         </div>
-        <LearnMoreButton destination={'../tech-stack'} />
+        <CtaButtonInternal destination={'../tech-stack'} buttonText={'Learn more'} />
       </section>
     </main>
   );

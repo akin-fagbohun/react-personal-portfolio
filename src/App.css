@@ -197,6 +197,7 @@ select {
   margin-right: auto;
   width: 150px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .section-cta-focus {
@@ -209,6 +210,7 @@ select {
   background-color: crimson;
   color: white;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /*   Project Cards   */
