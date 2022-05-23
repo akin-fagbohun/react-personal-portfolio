@@ -1,5 +1,6 @@
 import { GithubLogo } from '../components/icons/GithubLogo';
 import { LinkedInLogo } from './icons/LinkedInLogo';
+import { NorthcodersLogo } from './icons/NorthcodersLogo';
 
 export const Footer = () => {
   return (
@@ -19,6 +20,14 @@ export const Footer = () => {
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/akinfagbohun/" rel="noreferrer">
             LinkedIn
+          </a>
+        </div>
+        <div className="footer-links">
+          <a target="_blank" href="https://northcoders.com/" rel="noreferrer">
+            <NorthcodersLogo />
+          </a>
+          <a target="_blank" href="https://northcoders.com/" rel="noreferrer">
+            Northcoders
           </a>
         </div>
         <small className="copyright">© Akin Fagbohun. All rights reserved.</small>

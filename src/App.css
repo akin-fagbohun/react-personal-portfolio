@@ -53,8 +53,16 @@ body {
 }
 
 /* A elements that don't have a class get default styles */
-a:not([class]) {
+a:not([className]) {
+  color: black;
   text-decoration-skip-ink: auto;
+  text-decoration: none;
+  margin: 0;
+}
+a:not([className]):hover {
+  color: var(--dark-grey);
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
 }
 
 /* Make images easier to work with */
@@ -193,6 +201,7 @@ select {
   display: block;
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -204,6 +213,7 @@ select {
   display: block;
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -215,7 +225,7 @@ select {
 
 /*   Project Cards   */
 
-.project-wrapper {
+.project-card-wrapper {
   background-color: var(--pale-yellow);
 }
 
@@ -229,6 +239,7 @@ select {
 
 .project-card {
   display: flex;
+  flex-direction: column;
   background-color: var(--mid-grey);
   width: 300px;
   height: 400px;
@@ -238,6 +249,13 @@ select {
   margin-bottom: 3rem;
   flex: 0 0 auto;
   list-style: none;
+}
+
+.card-image {
+  align-self: flex-start;
+  display: inline-block;
+  width: 300px;
+  height: 225px;
 }
 
 .card-content {
@@ -275,6 +293,34 @@ select {
   align-items: center;
 }
 
+/*   Project Page   */
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  max-width: 1080px;
+}
+
+.project-title {
+  padding-top: 50px;
+}
+.project-subtitle {
+  padding-top: 30px;
+}
+
+.project-summary {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.demo-btn {
+  padding-top: 30px;
+}
+
 /*  Techstack Section  */
 
 .stack-wrapper {
@@ -286,7 +332,6 @@ select {
   display: flex;
   justify-content: center;
   gap: 50px;
-  padding-bottom: 50px;
 }
 
 .stack-icons {
