@@ -7,6 +7,7 @@ import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { EverythingNews } from './components/projects/EverythingNews';
 import { EverythingNewsApi } from './components/projects/EverythingNewsApi';
+import { Oddjobs } from './components/projects/Oddjobs';
 import { TechStack } from './components/TechStack';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/tech-stack" element={<TechStack />} />
         <Route path="/everything-news" element={<EverythingNews />} />
         <Route path="/everything-news-rest-api" element={<EverythingNewsApi />} />
+        <Route path="/oddjobs-mobile-app" element={<Oddjobs />} />
       </Routes>
       <Footer />
     </div>

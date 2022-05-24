@@ -8,10 +8,6 @@ import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
 import EverythingNewsCard from '../img/projects/everything-news-frontend/EverythingNewsCard.jpg';
 
 export const Home = () => {
-  // const ele = document.getElementById('project-carousel');
-  // ele.scrollTop = 100;
-  // ele.scrollLeft = 150;
-
   return (
     <main>
       <section className="headline-wrapper">
@@ -55,10 +51,14 @@ export const Home = () => {
             <img className="card-image" src="" alt="" />
 
             <div className="card-content">
-              <h3>OddJobs Mobile App</h3>
+              <h3>
+                <a href="/oddjobs-mobile-app">OddJobs Mobile App</a>
+              </h3>
               <p>A mobile app, built with React Native.</p>
               <div className="card-cta">
-                <ArrowForwardCircle />
+                <a href="/oddjobs-mobile-app">
+                  <ArrowForwardCircle />
+                </a>
               </div>
             </div>
           </li>
