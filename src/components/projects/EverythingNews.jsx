@@ -3,6 +3,11 @@ import EverythingNews_1 from '../../img/projects/everything-news-frontend/Everyt
 import EverythingNews_2 from '../../img/projects/everything-news-frontend/EverythingNews_2.jpg';
 import EverythingNews_3 from '../../img/projects/everything-news-frontend/EverythingNews_3.jpg';
 import EverythingNews_4 from '../../img/projects/everything-news-frontend/EverythingNews_4.jpg';
+import { NodeLogo } from '../icons/NodeLogo';
+import { GitLogo } from '../icons/GitLogo';
+import { ReactLogo } from '../icons/ReactLogo';
+import { Html5Logo } from '../icons/Html5Logo';
+import { Css3Logo } from '../icons/Css3Logo';
 
 export const EverythingNews = () => {
   return (
@@ -43,6 +48,31 @@ export const EverythingNews = () => {
           <small>Utilising query params to filter content.</small>
         </div>
       </div>
+      <section className="project-stack-wrapper">
+        <h3 className="section-heading">Tech Stack</h3>
+        <div className="project-logo-list">
+          <div className="project-logo-wrapper">
+            <ReactLogo />
+            <p>React</p>
+          </div>
+          <div className="project-logo-wrapper">
+            <NodeLogo />
+            <p>Node JS</p>
+          </div>
+          <div className="project-logo-wrapper">
+            <GitLogo />
+            <p>Git</p>
+          </div>
+          <div className="project-logo-wrapper">
+            <Html5Logo />
+            <p>HTML 5</p>
+          </div>
+          <div className="project-logo-wrapper">
+            <Css3Logo />
+            <p>CSS 3</p>
+          </div>
+        </div>
+      </section>
       {/* <h3>Project Retro</h3>
       <p>Write a retro for this project</p> */}
     </main>
