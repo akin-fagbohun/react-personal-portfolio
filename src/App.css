@@ -202,6 +202,7 @@ select {
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
   margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -214,6 +215,7 @@ select {
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
   margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 150px;
@@ -232,9 +234,24 @@ select {
 .project-carousel {
   display: flex;
   overflow-x: auto;
+  cursor: grab;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 30px;
+}
+
+.project-carousel::-webkit-scrollbar {
+  block-size: 0.5rem;
+}
+
+.project-carousel::-webkit-scrollbar-track {
+  background-color: var(--off-white);
+  border-radius: 15px;
+}
+
+.project-carousel::-webkit-scrollbar-thumb {
+  background-color: var(--mustard);
+  border-radius: 15px;
 }
 
 .project-card {
@@ -267,6 +284,7 @@ select {
   align-self: flex-end;
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
+  color: white;
 }
 
 .card-content > h3 {
@@ -321,11 +339,52 @@ select {
   padding-top: 30px;
 }
 
+.screenshots-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1080px;
+  max-width: 80%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.screenshot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 340px;
+  margin-top: 15px;
+}
+
+.screenshot small {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 /*  Techstack Section  */
 
 .stack-wrapper {
   background-color: var(--off-white);
   padding-bottom: 50px;
+}
+
+.project-stack-wrapper {
+  padding-bottom: 50px;
+}
+
+.project-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.project-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo-list {

@@ -5,7 +5,7 @@ import { NodeLogo } from './icons/NodeLogo';
 import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
 import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
-import EverythingNewsCard from '../img/projects/EverythingNewsCard.jpg';
+import EverythingNewsCard from '../img/projects/everything-news-frontend/EverythingNewsCard.jpg';
 
 export const Home = () => {
   return (
@@ -18,7 +18,7 @@ export const Home = () => {
       </section>
       <section className="project-card-wrapper">
         <h3 className="section-heading">Projects</h3>
-        <ul className="project-carousel">
+        <ul id="project-carousel" className="project-carousel">
           <li className="project-card">
             <img className="card-image" src={EverythingNewsCard} alt="" />
             <div className="card-content">
@@ -51,10 +51,14 @@ export const Home = () => {
             <img className="card-image" src="" alt="" />
 
             <div className="card-content">
-              <h3>OddJobs Mobile App</h3>
+              <h3>
+                <a href="/oddjobs-mobile-app">OddJobs Mobile App</a>
+              </h3>
               <p>A mobile app, built with React Native.</p>
               <div className="card-cta">
-                <ArrowForwardCircle />
+                <a href="/oddjobs-mobile-app">
+                  <ArrowForwardCircle />
+                </a>
               </div>
             </div>
           </li>
