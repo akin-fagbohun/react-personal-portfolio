@@ -53,11 +53,11 @@ export const Home = () => {
             <img className="card-image" src={Oddjobs_cover} alt="" />
             <div className="card-content">
               <h3>
-                <a href="/oddjobs-mobile-app">OddJobs Mobile App</a>
+                <a href="./oddjobs-mobile-app">OddJobs Mobile App</a>
               </h3>
               <p>A mobile app, built with React Native.</p>
               <div className="card-cta">
-                <a href="/oddjobs-mobile-app">
+                <a href="./oddjobs-mobile-app">
                   <ArrowForwardCircle />
                 </a>
               </div>
