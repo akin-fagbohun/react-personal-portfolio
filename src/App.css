@@ -400,7 +400,7 @@ select {
 }
 
 .stack-icons {
-  background-color: var(--dark-grey);
+  /* background-color: var(--dark-grey); */
   width: 125px;
   height: 125px;
   border-radius: 50%;
