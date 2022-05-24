@@ -6,6 +6,8 @@ import { ReactLogo } from './icons/ReactLogo';
 import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCircle';
 import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
 import EverythingNewsCard from '../img/projects/everything-news-frontend/EverythingNewsCard.jpg';
+import Backend_cover from '../img/projects/everything-news-frontend/Backend_cover.jpg';
+import Oddjobs_cover from '../img/projects/oddjobs/Oddjobs_cover.jpg';
 
 export const Home = () => {
   return (
@@ -34,7 +36,7 @@ export const Home = () => {
             </div>
           </li>
           <li className="project-card">
-            <img className="card-image" src="" alt="" />
+            <img className="card-image" src={Backend_cover} alt="" />
             <div className="card-content">
               <h3>
                 <a href="/everything-news-rest-api">Everything News REST API</a>
@@ -48,8 +50,7 @@ export const Home = () => {
             </div>
           </li>
           <li className="project-card">
-            <img className="card-image" src="" alt="" />
-
+            <img className="card-image" src={Oddjobs_cover} alt="" />
             <div className="card-content">
               <h3>
                 <a href="/oddjobs-mobile-app">OddJobs Mobile App</a>
@@ -62,7 +63,7 @@ export const Home = () => {
               </div>
             </div>
           </li>
-          <li className="project-card">
+          {/* <li className="project-card">
             <img className="card-image" src="" alt="" />
 
             <div className="card-content">
@@ -72,7 +73,7 @@ export const Home = () => {
                 <ArrowForwardCircle />
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </section>
       <section className="stack-wrapper">

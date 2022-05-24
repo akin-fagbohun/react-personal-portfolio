@@ -132,6 +132,10 @@ select {
 
 /*  Footer  */
 
+.para-end {
+  margin-bottom: 30px;
+}
+
 .footer-group {
   display: flex;
   flex-wrap: wrap;
@@ -234,7 +238,6 @@ select {
 .project-carousel {
   display: flex;
   overflow-x: auto;
-  cursor: grab;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 30px;
@@ -271,6 +274,8 @@ select {
 .card-image {
   align-self: flex-start;
   display: inline-block;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
   width: 300px;
   height: 225px;
 }
@@ -389,6 +394,7 @@ select {
 
 .logo-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
 }
