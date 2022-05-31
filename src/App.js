@@ -23,6 +23,7 @@ function App() {
         <Route path="/everything-news" element={<EverythingNews />} />
         <Route path="/everything-news-rest-api" element={<EverythingNewsApi />} />
         <Route path="/oddjobs-mobile-app" element={<Oddjobs />} />
+        <Route path="/blog" />
       </Routes>
       <Footer />
     </div>

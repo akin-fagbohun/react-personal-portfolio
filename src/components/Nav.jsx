@@ -26,6 +26,14 @@ export const Nav = () => {
           </li>
           <li>
             <NavLink
+              to="/blog"
+              className={({ isActive }) => (isActive ? activeClassName : undefined)}
+            >
+              Blog
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to="/contact"
               className={({ isActive }) => (isActive ? activeClassName : undefined)}
             >
