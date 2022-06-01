@@ -25,6 +25,9 @@ export const Nav = () => {
             </NavLink>
           </li>
           <li>
+            <a href="https://akins-portfolio-blog.netlify.app/blog">Blog</a>
+          </li>
+          <li>
             <NavLink
               to="/contact"
               className={({ isActive }) => (isActive ? activeClassName : undefined)}
