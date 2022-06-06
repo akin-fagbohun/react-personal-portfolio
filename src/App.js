@@ -9,6 +9,7 @@ import { EverythingNews } from './components/projects/EverythingNews';
 import { EverythingNewsApi } from './components/projects/EverythingNewsApi';
 import { Oddjobs } from './components/projects/Oddjobs';
 import { TechStack } from './components/TechStack';
+import { NextjsBlog } from './components/projects/NextjsBlog';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/everything-news" element={<EverythingNews />} />
         <Route path="/everything-news-rest-api" element={<EverythingNewsApi />} />
         <Route path="/oddjobs-mobile-app" element={<Oddjobs />} />
+        <Route path="/nextjs-jamstack-blog" element={<NextjsBlog />} />
         <Route path="/blog" />
       </Routes>
       <Footer />
