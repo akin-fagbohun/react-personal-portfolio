@@ -7,6 +7,7 @@ import { ArrowForwardCircle } from '../components/icons/sprites/ArrowForwardCirc
 import { CtaButtonInternal } from './icons/reusables/CtaButtonInternal';
 import EverythingNewsCard from '../img/projects/everything-news-frontend/EverythingNewsCard.jpg';
 import Backend_cover from '../img/projects/everything-news-frontend/Backend_cover.jpg';
+import Jamstack_cover from '../img/projects/jamstack-blog/Jamstack_cover.jpg';
 import Oddjobs_cover from '../img/projects/oddjobs/Oddjobs_cover.jpg';
 
 export const Home = () => {
@@ -63,17 +64,20 @@ export const Home = () => {
               </div>
             </div>
           </li>
-          {/* <li className="project-card">
-            <img className="card-image" src="" alt="" />
-
+          <li className="project-card">
+            <img className="card-image" src={Jamstack_cover} alt="" />
             <div className="card-content">
-              <h3>Pairs Game</h3>
-              <p>Play some pairs and test your recall.</p>
+              <h3>
+                <a href="./nextjs-jamstack-blog">Next JS Blog + CMS</a>
+              </h3>
+              <p>Building a Jamstack blog with NextJS and Sanity IO</p>
               <div className="card-cta">
-                <ArrowForwardCircle />
+                <a href="./nextjs-jamstack-blog">
+                  <ArrowForwardCircle />
+                </a>
               </div>
             </div>
-          </li> */}
+          </li>
         </ul>
       </section>
       <section className="stack-wrapper">
