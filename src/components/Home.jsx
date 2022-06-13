@@ -16,7 +16,11 @@ export const Home = () => {
       <section className="headline-wrapper">
         <div className="headline-content">
           <h1>Hello, I&apos;m Akin. </h1>
-          <p>A Leeds based Full-Stack developer.</p>
+          <p>
+            A Leeds based Full-Stack JavaScript developer specialising in React, Node.js, Express,
+            Next.js and React Native!
+          </p>
+          <CtaButtonInternal destination={'../about-me'} buttonText={'Learn more'} />
         </div>
       </section>
       <section className="project-card-wrapper">
