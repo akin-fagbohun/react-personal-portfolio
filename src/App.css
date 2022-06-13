@@ -5,6 +5,7 @@
   --off-white: #f1efef;
   --mid-grey: #858685;
   --dark-grey: #333533;
+  --navy-blue: #023e8a;
 
   /* Parent Font Styling */
   --heading-fonts: Poppins, sans-serif;
@@ -54,13 +55,14 @@ body {
 
 /* A elements that don't have a class get default styles */
 a:not([className]) {
-  color: black;
+  color: white;
   text-decoration-skip-ink: auto;
   text-decoration: none;
   margin: 0;
 }
+
 a:not([className]):hover {
-  color: var(--dark-grey);
+  color: var(--off-white);
   text-decoration-skip-ink: auto;
   text-decoration: none;
 }
@@ -123,6 +125,10 @@ select {
   padding: 0;
 }
 
+.nav-links a {
+  color: var(--dark-grey);
+}
+
 .nav-links li {
   margin: 10px;
 }
@@ -165,6 +171,10 @@ select {
   align-self: flex-end;
 }
 
+.footer-links a {
+  color: var(--dark-grey);
+}
+
 .footer-icons {
   width: 50px;
   height: 50px;
@@ -194,11 +204,21 @@ select {
 }
 
 .headline-content {
+  display: flex;
   width: 900px;
   max-width: 80%;
   flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.headline-content p {
+  max-width: 60ch;
+}
+
+.headline-content button {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .section-heading {
@@ -230,7 +250,7 @@ select {
   margin-left: auto;
   margin-right: auto;
   width: 150px;
-  background-color: crimson;
+  background-color: var(--navy-blue);
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -292,7 +312,7 @@ select {
   flex-direction: column;
   width: 300px;
   height: 175px;
-  background-color: crimson;
+  background-color: var(--navy-blue);
   align-self: flex-end;
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
