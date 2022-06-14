@@ -6,6 +6,7 @@ import { MongodbLogo } from '../icons/MongodbLogo';
 import { JestLogo } from '../icons/JestLogo';
 import { SocketioLogo } from '../icons/SocketioLogo';
 import { GoogleMapsLogo } from '../icons/GoogleMapsLogo';
+import { CtaButtonExternal } from '../icons/reusables/CtaButtonExternal';
 
 export const Oddjobs = () => {
   return (
@@ -25,6 +26,10 @@ export const Oddjobs = () => {
           <img src={Oddjobs_gif} alt="Oddjobs preview" />
         </div>
       </div>
+      <CtaButtonExternal
+        destination={'https://northcoders.com/projects/may-2022/odd-jobs'}
+        buttonText={'Video Demo'}
+      />
       <h3 className="project-subtitle">The Problem</h3>
       <p className="project-summary">
         There are often times in our home lives where we have a task that we simply don’t have the
