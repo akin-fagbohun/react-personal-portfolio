@@ -128,6 +128,11 @@ select {
 .nav-links a {
   color: var(--dark-grey);
 }
+.nav-links a:hover {
+  color: var(--mid-grey);
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
+}
 
 .nav-links li {
   margin: 10px;
@@ -173,6 +178,12 @@ select {
 
 .footer-links a {
   color: var(--dark-grey);
+}
+
+.footer-links a:hover {
+  color: var(--mid-grey);
+  text-decoration-skip-ink: auto;
+  text-decoration: none;
 }
 
 .footer-icons {
@@ -461,5 +472,22 @@ select {
   .nav-links li {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .project-carousel {
+    margin-left: 0px;
+  }
+
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--mid-grey);
+    width: 300px;
+    height: 400px;
+    border-radius: 18px;
+    margin-bottom: 3rem;
+    flex: 0 0 auto;
+    list-style: none;
+    /* transform: scale(0.9); */
   }
 }
